@@ -1,0 +1,26 @@
+{
+  "name": "large-directory-importer",
+  "version": "0.0.0",
+  "description": "Import large directories into IPFS/Filecoin.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "large-directory-importer": "node bin/import.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "dependencies": {
+    "@ipld/car": "^3.2.3",
+    "cli-table": "^0.3.11",
+    "format-number": "^3.0.0",
+    "ipfs-http-client": "^55.0.0",
+    "ipfs-unixfs-builder": "github:alanshaw/ipfs-unixfs-builder",
+    "it-pipe": "^2.0.0",
+    "ora": "^6.0.1",
+    "pretty-bytes": "^5.6.0",
+    "readdirp": "^3.6.0"
+  }
+}
